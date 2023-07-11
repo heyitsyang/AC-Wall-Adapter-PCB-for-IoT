@@ -11,14 +11,14 @@ Required components:
 - Qty 1 - AC Wall Adapter PC Board - [order from here](https://www.tindie.com/products/shencentral/ac-wall-adapter-pcb-for-iot-projects-us-plug/)
 - Qty 1 - US AC two-prong plug (included with PCB order)
 - Qty 1 - F1 - Miniature PCB Fuse 0.5A, 250V - rectangular or TR5/5TR style (ex. Littlefuse 37005000410)
-- Qty 1 - AC-DC Converter module - HiLink HLK PMXX or 5MXX series
+- Qty 1 - AC-DC Converter module - Hi-Link HLK PMXX or 5MXX series
 - Qty 1 - 3D printed enclosure
 
   
-Components for RFI, surge protection, & power indication:
+Components for RFI suppression, surge protection, & power indication:
 - Qty 1 - RV1 - Varistor 10D561K (ex. Bourns MOV-10D561K)
 - Qty 1 - L1 - Common mode choke inductor 10mH or 15mH, 500mA min, 270V (ex. Wurth 74482111)
-- Qty 1 - C1 - 0.1uF, 275VAC polyproylene capacitor (ex. MEX/TENTA 275V104P10)
+- Qty 1 - C1 - 0.1uF, 275VAC polypropylene capacitor (ex. MEX/TENTA 275V104P10)
 - Qty 1 - C2 - 220uF, 35V capacitor
 - Qty 1 - D1 - LED
 - Qty 1 - R1 - Resistor, use value suitable for +Vout & D1
@@ -32,7 +32,7 @@ The main component of the PCB is the Hi-Link AC-DC converter.  The PCB is design
 
 The PCB footprint for the fuse accomodates a "PCB fuse".  They are again available from Amazon or Aliexpress and other sources.  The PCB silkscreen indicates a rectangular footprint shape for the fuse, but the radial (TR5/5TR) style will also fit.
 
-The PCB has provisions for optional RFI, surge protection, and power indication components.  The Hi-Link AC-DC adapter will work without these components, obviously without the benefits they provide.  Be sure to install jumpers if the common mode inductor (see L1 on PCB) is not installed.
+The PCB has provisions for optional RFI suppression, surge protection, and power indication components.  The Hi-Link AC-DC adapter will work without these components, obviously without the benefits they provide.  Be sure to install jumpers if the common mode inductor (see L1 on PCB) is not installed.
 
 The prototyping grid will accomodate most ESP8266 & ESP32 "development boards" with some modest space leftover for sensor or connector attachment.  If additional room is needed, you can use the room to attach a header for piggybacking another prototyping PCB above.  The 3D printed case can be modified using Fusion360 for height.  Just be sure not to smother your WiFi signal by being too dense near it.
 
@@ -51,7 +51,7 @@ Print the following:
 - AC plug shim
 
 Two options for the 3D printed enclosure are included:
-- Flat top - normal enclosure with a flat top
+- Flat top - normal enclosure with a flat top - better if you need side portals for connectors
 - Tented top - top with angled sides for a slimmer look at the expense of potentially useful volume
 
 One very important, but easily overlooked component that must be printed is the shim for the plug.  The shim is a plastic spacer that must be installed between the PCB and the plug before soldering the plug.  When populating the PCB, *the shim and AC plug must be installed before the Hi-Link AC-DC converter.*  The shim provides the required critical offset for PCB mounting, AC plug protrusion, and enclosure bottom design.  If you choose to design your own enclosure, the plug offset is the critical measurement that drives the design for the enclosure bottom.
