@@ -8,20 +8,20 @@ An AC wall adapter PCB to power &amp; consolidate your IoT projects into a singl
 
 
 Required components:
-- AC Wall Adapter PC Board - [order from here](https://www.tindie.com/products/shencentral/ac-wall-adapter-pcb-for-iot-projects-us-plug/)
-- US AC two-prong plug (included with PCB order)
-- F1 - PCB Fuse 0.5A, 250V
-- AC-DC Converter module - HiLink HLK PMXX or 5MXX series
-- All-in-One AC Wall Adapter PC Board
-- 3D printed enclosure
+- Qty 1 - AC Wall Adapter PC Board - [order from here](https://www.tindie.com/products/shencentral/ac-wall-adapter-pcb-for-iot-projects-us-plug/)
+- Qty 1 - US AC two-prong plug (included with PCB order)
+- Qty 1 - F1 - PCB Fuse 0.5A, 250V
+- Qty 1 - AC-DC Converter module - HiLink HLK PMXX or 5MXX series
+- Qty 1 - 3D printed enclosure
 
   
 Components for RFI, surge protection, & power indication:
-- RV1 - MOV 10D561K 
-- L1 - Common mode choke inductor 10mH or 15mH, 500mA min, 270V (ex: Wurth 74482111)
-- C1 - 0.1uF, 275V
-- C2 - 220uF, voltage suitable for +Vout
-- R1 - Use value suitable for +Vout & D1
+- Qty 1 - RV1 - MOV 10D561K 
+- Qty 1 - L1 - Common mode choke inductor 10mH or 15mH, 500mA min, 270V (ex. Wurth 74482111)
+- Qty 1 - C1 - 0.1uF, 275V
+- Qty 1 - C2 - 220uF, voltage suitable for +Vout
+- Qty 1 - LED
+- Qty 1 - R1 - Use value suitable for +Vout & D1
 
 
 <br>
@@ -30,9 +30,9 @@ Components for RFI, surge protection, & power indication:
 
 The main component of the PCB is the Hi-Link AC-DC converter.  The PCB is designed to accomodate either the HLK-PMxx or the HLK-5Mxx series component footprint.  They are avaialabe in varying voltage and power combinations.  You can find them on Amazon, AliExpress, and other sources.
 
-The PCB footprint for the fuse accomodates a "PCB fuse".  They are again available from Amazon or Aliexpress and other sources.  The silkscreen indicates a rectangular shape for the fule, but the radial (circular) style will also fit.
+The PCB footprint for the fuse accomodates a "PCB fuse".  They are again available from Amazon or Aliexpress and other sources.  The silkscreen indicates a rectangular footprint shape for the fuse, but the radial (circular) style will also fit.
 
-The PCB has provisions for optional RFI, surge protection, and power indication components.  The Hi-Link AC-DC adapter will work without these components, obviously without the benfits of them.  Be sure to install jumpers if the common mode inductor (see L1 on PCB) is not installed.
+The PCB has provisions for optional RFI, surge protection, and power indication components.  The Hi-Link AC-DC adapter will work without these components, obviously without the benefits they provide.  Be sure to install jumpers if the common mode inductor (see L1 on PCB) is not installed.
 
 The prototyping grid will accomodate most ESP8266 & ESP32 "development boards" with some modest space leftover for sensor or connector attachment.  If additional room is needed, you can use the room to attach a header for piggybacking another prototyping PCB above.  The 3D printed case can be modified using Fusion360 for height.  Just be sure not to smother your WiFi signal by being too dense near it.
 
