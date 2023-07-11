@@ -8,7 +8,7 @@ An AC wall adapter PCB to power &amp; consolidate your IoT projects into a singl
 
 
 Required components:
-- AC Wall Adapter PC Board - order from [here](https://www.tindie.com/products/shencentral/ac-wall-adapter-pcb-for-iot-projects-us-plug/)
+- AC Wall Adapter PC Board - [order from here](https://www.tindie.com/products/shencentral/ac-wall-adapter-pcb-for-iot-projects-us-plug/)
 - US AC two-prong plug (included with PCB order)
 - F1 - PCB Fuse 0.5A, 250V
 - AC-DC Converter module - HiLink HLK PMXX or 5MXX series
