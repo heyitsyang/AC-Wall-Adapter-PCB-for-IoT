@@ -36,6 +36,8 @@ The PCB has provisions for optional RFI, surge protection, and power indication 
 
 The prototyping grid will accomodate most ESP8266 & ESP32 "development boards" with some modest space leftover for sensor or connector attachment.  If additional room is needed, you can use the room to attach a header for piggybacking another prototyping PCB above.  The 3D printed case can be modified using Fusion360 for height.  Just be sure not to smother your WiFi signal by being too dense near it.
 
+Schematic and layout [here](https://github.com/heyitsyang/AC-Wall-Adapter-PCB/tree/main/Schematic_and_Layout)
+
 
 <br>
 
@@ -58,8 +60,6 @@ One very important, but easily overlooked component that must be printed is the 
 
 ## Images
 
-Shim installation
-![Shim installation](3D_Printed_Enclosure/images/spacer_shim_placement.png)
 
 Enclosure with flat top option
 ![Flat top version](3D_Printed_Enclosure/images/Top_Enc_Flat.png)
@@ -70,3 +70,5 @@ Enclosure with tented top option
 Populated PCB
 ![Populated PCB](3D_Printed_Enclosure/images/wo_top.png)
 
+Shim installation
+![Shim installation](3D_Printed_Enclosure/images/spacer_shim_placement.png)
