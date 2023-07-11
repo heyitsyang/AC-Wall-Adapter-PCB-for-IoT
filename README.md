@@ -1,5 +1,5 @@
 # AC-Wall-Adapter-PCB
-An AC wall adapter PCB to power &amp; consolidate your IoT projects into a single housing without using ugly USB phone chargers
+An AC wall adapter PCB to power &amp; consolidate your IoT & DIY projects into a single housing without resorting to ugly USB phone chargers
 
 <br>
 
@@ -10,18 +10,18 @@ An AC wall adapter PCB to power &amp; consolidate your IoT projects into a singl
 Required components:
 - Qty 1 - AC Wall Adapter PC Board - [order from here](https://www.tindie.com/products/shencentral/ac-wall-adapter-pcb-for-iot-projects-us-plug/)
 - Qty 1 - US AC two-prong plug (included with PCB order)
-- Qty 1 - F1 - PCB Fuse 0.5A, 250V
+- Qty 1 - F1 - Miniature PCB Fuse 0.5A, 250V - rectangular or TR5/5TR style
 - Qty 1 - AC-DC Converter module - HiLink HLK PMXX or 5MXX series
 - Qty 1 - 3D printed enclosure
 
   
 Components for RFI, surge protection, & power indication:
-- Qty 1 - RV1 - MOV 10D561K 
+- Qty 1 - RV1 - Variable resistor 10D561K  (MOV) 
 - Qty 1 - L1 - Common mode choke inductor 10mH or 15mH, 500mA min, 270V (ex. Wurth 74482111)
-- Qty 1 - C1 - 0.1uF, 275V
-- Qty 1 - C2 - 220uF, voltage suitable for +Vout
+- Qty 1 - C1 - 0.1uF, 275VAC polyproylene capacitor (ex. MEX/TENTA 275V104P10)
+- Qty 1 - C2 - 220uF capacitor, voltage suitable for +Vout
 - Qty 1 - D1 - LED
-- Qty 1 - R1 - Use value suitable for +Vout & D1
+- Qty 1 - R1 - Resistor, use value suitable for +Vout & D1
 
 
 <br>
