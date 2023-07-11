@@ -20,7 +20,7 @@ Components for RFI, surge protection, & power indication:
 - Qty 1 - L1 - Common mode choke inductor 10mH or 15mH, 500mA min, 270V (ex. Wurth 74482111)
 - Qty 1 - C1 - 0.1uF, 275V
 - Qty 1 - C2 - 220uF, voltage suitable for +Vout
-- Qty 1 - LED
+- Qty 1 - D1 - LED
 - Qty 1 - R1 - Use value suitable for +Vout & D1
 
 
