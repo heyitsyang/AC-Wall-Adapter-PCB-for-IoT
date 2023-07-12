@@ -30,7 +30,7 @@ Components for EMI suppression, surge protection, & power indication:
 
 The main component of the PCB is the Hi-Link AC-DC converter.  The PCB is designed to accomodate either the HLK-PMxx or the HLK-5Mxx series component footprint.  They are available in several voltages.  You can find them on Amazon, AliExpress, and other sources.
 
-The PCB footprint for the fuse accomodates a "PCB fuse".  They are again available from Amazon or Aliexpress and other sources.  The PCB silkscreen indicates a rectangular footprint shape for the fuse, but the radial (TR5/5TR) style will also fit.
+The PCB footprint for the fuse accomodates a miniature PCB fuse.  They are again available from Amazon or Aliexpress and other sources.  The PCB silkscreen indicates a rectangular footprint shape for the fuse, but the radial (TR5/5TR) style will also fit.  (Search for "pcb fuse 0.5a 250v TR5")
 
 The PCB has provisions for optional EMI suppression, surge protection, and power indication components.  The Hi-Link AC-DC adapter will work without these components, obviously without the benefits they provide.  Be sure to install jumpers if the common mode inductor (see L1 on PCB) is not installed.
 
