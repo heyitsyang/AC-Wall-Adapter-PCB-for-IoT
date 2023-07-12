@@ -7,7 +7,7 @@ AC_Plug_Shim.stl - spacer between plug and PCB - (see spacer_ship_placement.pdf)
 AiO_IoT_AC_Wall_Adapter_Small_PCB_v1.0_Enc.f3d - Fusion360 design file
 
 Notes regarding the Fusion360 design file:
- - the enclosure design is parameteric in X,Y & Z directions
+ - the enclosure design is parametric in X,Y & Z directions
  - names of adjustable parameters are indicated in ALL_CAPS
  - adjusting parameters with lower case names yeild unexpected results
  
