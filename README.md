@@ -15,7 +15,7 @@ Required components:
 - Qty 1 - 3D printed enclosure
 
   
-Components for RFI suppression, surge protection, & power indication:
+Components for EMI suppression, surge protection, & power indication:
 - Qty 1 - RV1 - Varistor 10D561K (ex. Bourns MOV-10D561K)
 - Qty 1 - L1 - Common mode choke inductor 10mH or 15mH, 500mA min, 270V (ex. Wurth 74482111)
 - Qty 1 - C1 - 0.1uF, 275VAC polypropylene capacitor (ex. MEX/TENTA 275V104P10)
@@ -32,7 +32,7 @@ The main component of the PCB is the Hi-Link AC-DC converter.  The PCB is design
 
 The PCB footprint for the fuse accomodates a "PCB fuse".  They are again available from Amazon or Aliexpress and other sources.  The PCB silkscreen indicates a rectangular footprint shape for the fuse, but the radial (TR5/5TR) style will also fit.
 
-The PCB has provisions for optional RFI suppression, surge protection, and power indication components.  The Hi-Link AC-DC adapter will work without these components, obviously without the benefits they provide.  Be sure to install jumpers if the common mode inductor (see L1 on PCB) is not installed.
+The PCB has provisions for optional EMI suppression, surge protection, and power indication components.  The Hi-Link AC-DC adapter will work without these components, obviously without the benefits they provide.  Be sure to install jumpers if the common mode inductor (see L1 on PCB) is not installed.
 
 The prototyping grid will accomodate most ESP8266 & ESP32 "development boards" with some modest space leftover for sensor or connector attachment.  If additional room is needed, you can use the room to attach a header for piggybacking another prototyping PCB above.  The 3D printed case can be modified using Fusion360 for height.  Just be sure not to smother your WiFi signal by being too dense near it.
 
