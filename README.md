@@ -43,7 +43,7 @@ Schematic and layout [here](https://github.com/heyitsyang/AC-Wall-Adapter-PCB/tr
 
 ## 3D Printed Enclosure
 
-STL files and the Fusion360 design file is provided.  When modifying the Fusion360 files to change dimensions, editing CAPITALIZED parameter values is safe/tested.  Editing other parameters may yield unexpected results.
+STL mesh files and the Fusion360 design file are provided.  The Fusion360 design file is parametric in X,Y & Z directions.  When modifying the Fusion360 design to change dimensions, editing CAPITALIZED parameter values is safe/tested.  Editing other parameters may yield unexpected results.
 
 Print the following:
 - Enclosure top (your choice of two styles)
@@ -56,7 +56,7 @@ Two options for the 3D printed enclosure are included:
 
 One very important, but easily overlooked component that must be printed is the shim for the plug.  The shim is a plastic spacer that must be installed between the PCB and the plug before soldering the plug.  When populating the PCB, *the shim and AC plug must be installed before the Hi-Link AC-DC converter.*  The shim provides the required critical offset for PCB mounting, AC plug protrusion, and enclosure bottom design.  If you choose to design your own enclosure, the plug offset is the critical measurement that drives the design for the enclosure bottom.
 
-Enclosure halves are fastened using #4 0.5 inch or M3 screws.
+Supports should not be necessary for printing.  Enclosure halves are fastened using #4 0.5 inch or M3 screws.
 
 <br>
 
