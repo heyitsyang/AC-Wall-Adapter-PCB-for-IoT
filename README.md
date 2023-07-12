@@ -46,7 +46,7 @@ Schematic and layout [here](https://github.com/heyitsyang/AC-Wall-Adapter-PCB/tr
 STL mesh files and the Fusion360 design file are provided.  The Fusion360 design file is parametric in X,Y & Z directions.  When modifying the Fusion360 design to change dimensions, editing CAPITALIZED parameter values is safe/tested.  Editing other parameters may yield unexpected results.
 
 Print the following:
-- Enclosure top (your choice of two styles)
+- Enclosure top (choice of two styles)
 - Enclosure bottom
 - AC plug shim
 
