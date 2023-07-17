@@ -10,7 +10,7 @@ An AC wall adapter PCB to power &amp; consolidate your IoT & DIY project into a 
 Required components:
 - Qty 1 - AC Wall Adapter PC Board - [order from here](https://www.tindie.com/products/shencentral/ac-wall-adapter-pcb-for-iot-projects-us-plug/)
 - Qty 1 - US AC two-prong plug (included with PCB order)
-- Qty 1 - F1 - Miniature PCB Fuse 0.5A, 250V - rectangular or TR5/5TR style (ex. Littlefuse 37005000410)
+- Qty 1 - F1 - Miniature PCB Fuse 0.5A, 250V slow blow - rectangular or TR5/5TR style (ex. Littlefuse 37205000001)
 - Qty 1 - AC-DC Converter module - Hi-Link HLK PMXX or 5MXX series
 - Qty 1 - 3D printed enclosure
 
