@@ -62,15 +62,17 @@ Supports should not be necessary for printing.  Enclosure halves are fastened us
 
 ## Images
 
+PCB & Plug
+![PCB](images/stuffed_notStuffed.jpg)
+
+Finished Project
+![Finished](images/beauty_shot_2.jpg)
 
 Enclosure with flat top option
 ![Flat top version](3D_Printed_Enclosure/images/Top_Enc_Flat.jpg)
 
 Enclosure with tented top option
 ![Tented top version](3D_Printed_Enclosure/images/Top_Enc_Tented.jpg)
-
-Populated PCB
-![Populated PCB](3D_Printed_Enclosure/images/wo_top.jpg)
 
 Shim installation
 ![Shim installation](3D_Printed_Enclosure/images/spacer_shim_placement.jpg)
