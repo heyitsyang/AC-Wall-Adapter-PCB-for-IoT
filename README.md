@@ -58,6 +58,8 @@ One very important, but easily overlooked component that must be printed is the 
 
 Supports should not be necessary for printing.  Enclosure halves are fastened using #4 0.5 inch or M3 screws.
 
+#D printing files are [here](https://github.com/heyitsyang/AC-Wall-Adapter-PCB-for-IoT/tree/main/3D_Printed_Enclosure)
+
 <br>
 
 ## Images
