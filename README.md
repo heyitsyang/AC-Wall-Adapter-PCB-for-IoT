@@ -28,13 +28,13 @@ Components for EMI suppression, surge protection, & power indication:
 
 ## Printed Circuit Board
 
-The main component of the PCB is the Hi-Link AC-DC converter.  The PCB is designed to accomodate either the HLK-PMxx or the HLK-5Mxx series component footprint.  They are available in several voltages.  You can find them on Amazon, AliExpress, and other sources.
+The main component of the PCB is the Hi-Link AC-DC converter.  The PCB is designed to accommodate either the HLK-PMxx or the HLK-5Mxx series component footprint.  They are available in several voltages.  You can find them on Amazon, AliExpress, and other sources.
 
-The PCB footprint for the fuse accomodates a miniature PCB fuse.  They are again available from Amazon or Aliexpress and other sources.  The PCB silkscreen indicates a rectangular footprint shape for the fuse, but the radial (TR5/5TR) style will also fit.  (Search for "pcb fuse 0.5a 250v TR5")
+The PCB footprint for the fuse accommodates a miniature PCB fuse.  They are again available from Amazon or Aliexpress and other sources.  The PCB silkscreen indicates a rectangular footprint shape for the fuse, but the radial (TR5/5TR) style will also fit.  (Search for "pcb fuse 0.5a 250v TR5")
 
 The PCB has provisions for optional EMI suppression, surge protection, and power indication components.  The Hi-Link AC-DC adapter will work without these components, obviously without the benefits they provide.  Be sure to install jumpers if the common mode inductor (see L1 on PCB) is not installed.
 
-The prototyping grid will accomodate most ESP8266 & ESP32 "development boards" with some modest space leftover for sensor or connector attachment.  If additional room is needed, you can use the room to attach a header for piggybacking another prototyping PCB above.  The 3D printed case can be modified using Fusion360 for height.  Just be sure not to smother your WiFi signal by being too dense near it.
+The prototyping grid accommodates most ESP8266 & ESP32 "development boards" with some modest space leftover for sensor or connector attachment.  If additional room is needed, you can use the room to attach a header for piggybacking another prototyping PCB above.  The 3D printed case can be modified using Fusion360 for height.  Just be sure not to smother your WiFi signal by being too dense near it.
 
 Schematic and layout [here](https://github.com/heyitsyang/AC-Wall-Adapter-PCB/tree/main/Schematic_and_Layout)
 
@@ -54,11 +54,30 @@ Two options for the 3D printed enclosure are included:
 - Flat top - normal enclosure with a flat top - better if you need side portals for connectors
 - Tented top - top with angled sides for a slimmer look at the expense of potentially useful volume
 
-One very important, but easily overlooked component that must be printed is the shim for the plug.  The shim is a plastic spacer that must be installed between the PCB and the plug before soldering the plug.  When populating the PCB, *the shim and AC plug must be installed before the Hi-Link AC-DC converter.*  The shim provides the required critical offset for PCB mounting, AC plug protrusion, and enclosure bottom design.  If you choose to design your own enclosure, the plug offset is the critical measurement that drives the design for the enclosure bottom.
+One very important, but easily overlooked component that must be printed is the shim for the plug.  The shim is a plastic spacer that must be installed between the PCB and the plug before soldering the plug.  When populating the PCB, *the shim and AC plug must be installed before the Hi-Link AC-DC converter.*  
+
+If you choose to design your own enclosure, the plug offset is the critical measurement that drives the design for the enclosure bottom.
 
 Supports should not be necessary for printing.  Enclosure halves are fastened using #4 0.5 inch or M3 screws.
 
 3D printing files [here](https://github.com/heyitsyang/AC-Wall-Adapter-PCB-for-IoT/tree/main/3D_Printed_Enclosure)
+
+<br>
+
+## Assembly
+
+Most of the assembly is straightforward.  
+
+Both the HiLink HLK-5Mxx and HLK-PMxx series AC-DC Converters are supported.  The footprints on the PCB are overlapping. just align to the correct one after you have installed the AC plug and shim assembly.
+
+As mentioned above, do not overlook placing the shim on the AC plug prior to soldering. Orient the AC plug and shim assembly as shown in the photo - don't install the AC plug upside down.  Double check this step!
+
+Shim placement
+![Shim Placement](images/shim_placement.jpg)
+
+Correct AC plug orientation shown from front side of PCB
+![AC Plug Orientation](images/shim_orientation.jpg)
+
 
 <br>
 
@@ -70,5 +89,3 @@ PCB & Plug
 Finished Project with top options
 ![Finished](images/finished_with_top_options.jpg)
 
-Shim installation
-![Shim installation](3D_Printed_Enclosure/images/spacer_shim_placement.jpg)
