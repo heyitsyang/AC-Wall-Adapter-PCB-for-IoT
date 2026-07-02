@@ -75,6 +75,7 @@ Both the HiLink HLK-5Mxx and HLK-PMxx series AC-DC Converters are supported.  Th
 As mentioned above, do not overlook placing the shim on the AC plug prior to soldering. Orient the AC plug and shim assembly as shown in the photo - don't install the AC plug upside down.  Double check this step!
 
 Shim placement
+
 ![Shim Placement](images/shim_placement.jpg)
 
 Correct AC plug orientation shown from front side of PCB
